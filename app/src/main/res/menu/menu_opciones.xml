@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="huella"
+        android:icon="@drawable/huella"
+        app:showAsAction="always"/>
+    <item
+        android:title="@string/app_name"
+        android:orderInCategory="102"
+        app:showAsAction="always"/>
+    <item
+        android:orderInCategory="103"
+        android:id="@+id/itFavoritos"
+        android:title="@string/star"
+        app:showAsAction="always"
+        android:icon="@drawable/star_five"/>
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/contacto"
+        android:orderInCategory="104"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mAcercade"
+        android:title="@string/acerca"
+        android:orderInCategory="105"
+        app:showAsAction="never"/>
+</menu>
